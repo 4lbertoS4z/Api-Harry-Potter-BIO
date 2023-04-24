@@ -1,4 +1,4 @@
-package com.example.harrypotterwiki.model
+package com.example.harrypotterwiki.model.student
 
 import android.view.LayoutInflater
 
@@ -9,7 +9,6 @@ import com.bumptech.glide.Glide
 import com.example.harrypotterwiki.R
 
 import com.example.harrypotterwiki.databinding.StudentListBinding
-
 
 
 class StudentAdapter(private val students: List<Student>) :

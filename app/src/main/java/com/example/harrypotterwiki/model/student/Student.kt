@@ -1,4 +1,4 @@
-package com.example.harrypotterwiki.model
+package com.example.harrypotterwiki.model.student
 
 
 

@@ -7,8 +7,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.harrypotterwiki.R
-import com.example.harrypotterwiki.model.StudentAdapter
-import com.example.harrypotterwiki.model.StudentListViewModel
+import com.example.harrypotterwiki.model.student.StudentAdapter
+import com.example.harrypotterwiki.model.student.StudentListViewModel
 
 
 class StudentList : AppCompatActivity() {

@@ -1,10 +1,11 @@
-package com.example.harrypotterwiki.model
+package com.example.harrypotterwiki.model.student
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.harrypotterwiki.api.ApiService
+import com.example.harrypotterwiki.settings.BASE_URL
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -12,7 +13,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class StudentListViewModel() : ViewModel() {
-    private val BASE_URL = "https://hp-api.onrender.com/"
+
 
     val retrofit = Retrofit.Builder()
         .baseUrl(BASE_URL)
