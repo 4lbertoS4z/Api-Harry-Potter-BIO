@@ -1,8 +1,6 @@
 package com.example.harrypotterwiki.model
 
-
-
-class Student(
+class Staff (
 
     val name: String,
     val gender: String,

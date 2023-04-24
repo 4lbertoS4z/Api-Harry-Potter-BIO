@@ -14,7 +14,7 @@
         android:theme="@style/Theme.HarryPotterWiki"
         tools:targetApi="31">
         <activity
-            android:name=".ui.StudentInfo"
+            android:name=".ui.StaffList"
             android:exported="false" />
         <activity
             android:name=".ui.StudentList"

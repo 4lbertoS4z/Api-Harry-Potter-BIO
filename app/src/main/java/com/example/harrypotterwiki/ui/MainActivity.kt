@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,StudentList::class.java)
             startActivity(intent)
         }
+        binding.buttonStaff.setOnClickListener {
+            val intent = Intent(this,StaffList::class.java)
+            startActivity(intent)
+        }
     }
 }

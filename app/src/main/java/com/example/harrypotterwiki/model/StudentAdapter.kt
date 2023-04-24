@@ -1,7 +1,5 @@
 package com.example.harrypotterwiki.model
 
-import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 
 import android.view.ViewGroup
@@ -23,10 +21,11 @@ class StudentAdapter(private val students: List<Student>) :
             binding.birthText.text = student.dateOfBirth
             Glide.with(binding.imageView.context).load(student.image).placeholder(R.drawable.cardsnitch).into(binding.imageView)
             binding.nameTextView.text = student.name
-            binding.birthText.text = "Nacimiento: ${student.dateOfBirth}"
-            binding.genderText.text = "Género: ${student.gender}"
-            binding.houseText.text = "Casa: ${student.house}"
-            binding.ancestryText.text = "Ascendencia: ${student.ancestry}"
+            binding.birthText.text = "Birth: ${student.dateOfBirth}"
+            binding.genderText.text = "Gender: ${student.gender}"
+            binding.houseText.text = "House: ${student.house}"
+            binding.patronusText.text = "Patronous: ${student.patronus}"
+            binding.actorText.text = "Actor: ${student.actor}"
         }
     }
 
